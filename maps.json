@@ -1,0 +1,46 @@
+{
+  "schema": 1,
+  "generated_at": "2026-08-30T19:39:40.3488131Z",
+  "packs": [
+    {
+      "key": "ats",
+      "label": "American Truck Simulator",
+      "game": "ats",
+      "version": "fa791f206e8d",
+      "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/maps/Trecho-Mapas-ats-fa791f206e8d.zip",
+      "sha256": "0867e9eaf342dbe7f04bbaba95623e1fecf32d8140eb4fd13c11292feecf060c",
+      "size_bytes": 76405868,
+      "file_count": 15
+    },
+    {
+      "key": "ets2",
+      "label": "Euro Truck Simulator 2",
+      "game": "ets2",
+      "version": "17640880d083",
+      "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/maps/Trecho-Mapas-ets2-17640880d083.zip",
+      "sha256": "007e1c80b9abeebef0c404694e990fe06e281fa476e118b0c5d076fcdb95111f",
+      "size_bytes": 78649030,
+      "file_count": 15
+    },
+    {
+      "key": "ets2_rotasbrasil",
+      "label": "Explorando a America (EAA)",
+      "game": "ets2",
+      "version": "1d78048f8640",
+      "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/maps/Trecho-Mapas-ets2_rotasbrasil-1d78048f8640.zip",
+      "sha256": "85f7f87b481a826ea10e647de496665aef47cce319f9a93a1d861c7da05491e4",
+      "size_bytes": 7337329,
+      "file_count": 13
+    },
+    {
+      "key": "ets2_rbr",
+      "label": "Rotas Brasil (RBR)",
+      "game": "ets2",
+      "version": "f040d3f1527e",
+      "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/maps/Trecho-Mapas-ets2_rbr-f040d3f1527e.zip",
+      "sha256": "b0429ff05064d373c9def072ff418c7b7f9ba2f90aeea27bbbd6da408576bf30",
+      "size_bytes": 1703010,
+      "file_count": 13
+    }
+  ]
+}
