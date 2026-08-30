@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Baixar o Trecho — beta</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.65 system-ui, -apple-system, Segoe UI, sans-serif;
+         max-width: 34rem; margin: 0 auto; padding: 3.5rem 1.25rem;
+         background: #f4f5f3; color: #15181a; }
+  @media (prefers-color-scheme: dark) {
+    body { background: #121513; color: #e9ece7; }
+    .card { background: #1a1e1c; border-color: #2c322f; }
+    code { background: #222724; }
+  }
+  h1 { font-size: 1.9rem; line-height: 1.15; margin: 0 0 .35rem; }
+  .sub { color: #5d6663; margin: 0 0 2rem; }
+  .card { background: #fff; border: 1px solid #dbdfda; padding: 1.4rem; }
+  .btn { display: inline-block; background: #f0b429; color: #15181a;
+         padding: .85rem 1.5rem; text-decoration: none; font-weight: 600;
+         border-radius: 3px; margin: .4rem 0; }
+  .btn[aria-disabled="true"] { background: #dbdfda; color: #5d6663;
+                               cursor: not-allowed; }
+  .ver { font-variant-numeric: tabular-nums; font-weight: 600; }
+  code { background: #edefeb; padding: .1em .35em; border-radius: 2px; }
+  ol { padding-left: 1.2rem; }
+  footer { margin-top: 2.5rem; font-size: .9rem; color: #5d6663; }
+</style>
+</head>
+<body>
+  <h1>Trecho</h1>
+  <p class="sub">Versão de teste fechada</p>
+
+  <div class="card">
+    <p id="v">Carregando versão…</p>
+    <p><a class="btn" id="dl" href="#" aria-disabled="true">Baixar o Trecho</a></p>
+    <p id="notes"></p>
+  </div>
+
+  <h2>Como instalar</h2>
+  <ol>
+    <li>Baixe o <code>.zip</code> e extraia numa pasta sua.</li>
+    <li>Rode <code>Instalar_Trecho.bat</code> uma vez.</li>
+    <li>Depois disso, abra pelo <code>Iniciar_Trecho.bat</code>.</li>
+  </ol>
+
+  <h2>Atualizações</h2>
+  <p>O próprio Trecho avisa no topo quando sair versão nova. Você não
+     precisa voltar aqui.</p>
+
+  <footer>
+    <p>O acesso ao beta é por convite. Se o login recusar, fale com o André.</p>
+  </footer>
+
+<script>
+fetch("manifest.json?t=" + Date.now())
+  .then(function (r) { return r.json(); })
+  .then(function (m) {
+    document.getElementById("v").innerHTML =
+      'Versão disponível: <span class="ver">' + m.version + "</span>";
+    if (m.notes) { document.getElementById("notes").textContent = m.notes; }
+    var a = document.getElementById("dl");
+    if (m.url) {
+      a.href = m.url;
+      a.removeAttribute("aria-disabled");
+    } else {
+      a.textContent = "Ainda não publicado";
+    }
+  })
+  .catch(function () {
+    document.getElementById("v").textContent =
+      "Não foi possível ler a versão. Tente recarregar a página.";
+  });
+</script>
+</body>
+</html>
