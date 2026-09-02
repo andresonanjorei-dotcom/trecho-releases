@@ -3,26 +3,17 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Baixar o Trecho - beta</title>
+<title>Instalar o Trecho - beta</title>
 <style>
   :root { color-scheme: light dark; }
-  body { font: 16px/1.65 system-ui, -apple-system, Segoe UI, sans-serif;
-         max-width: 34rem; margin: 0 auto; padding: 3.5rem 1.25rem;
-         background: #f4f5f3; color: #15181a; }
-  @media (prefers-color-scheme: dark) {
-    body { background: #121513; color: #e9ece7; }
-    .card { background: #1a1e1c; border-color: #2c322f; }
-    code { background: #222724; }
-  }
+  body { font: 16px/1.65 system-ui, -apple-system, Segoe UI, sans-serif; max-width: 34rem; margin: 0 auto; padding: 3.5rem 1.25rem; background: #f4f5f3; color: #15181a; }
+  @media (prefers-color-scheme: dark) { body { background: #121513; color: #e9ece7; } .card { background: #1a1e1c; border-color: #2c322f; } code { background: #222724; } }
   h1 { font-size: 1.9rem; line-height: 1.15; margin: 0 0 .35rem; }
   h2 { font-size: 1.1rem; margin-top: 2rem; }
   .sub { color: #5d6663; margin: 0 0 2rem; }
   .card { background: #fff; border: 1px solid #dbdfda; padding: 1.4rem; }
-  .btn { display: inline-block; background: #f0b429; color: #15181a;
-         padding: .85rem 1.5rem; text-decoration: none; font-weight: 700;
-         border-radius: 3px; margin: .4rem 0; }
-  .btn[aria-disabled="true"] { background: #dbdfda; color: #5d6663;
-                               cursor: not-allowed; }
+  .btn { display: inline-block; background: #f0b429; color: #15181a; padding: .85rem 1.5rem; text-decoration: none; font-weight: 700; border-radius: 3px; margin: .4rem 0; }
+  .btn[aria-disabled="true"] { background: #dbdfda; color: #5d6663; cursor: not-allowed; }
   .ver { font-variant-numeric: tabular-nums; font-weight: 700; }
   code { background: #edefeb; padding: .1em .35em; border-radius: 2px; }
   ol { padding-left: 1.2rem; }
@@ -35,19 +26,19 @@
 
   <div class="card">
     <p id="v">Carregando versao...</p>
-    <p><a class="btn" id="dl" href="#" aria-disabled="true">Baixar o Trecho</a></p>
+    <p><a class="btn" id="dl" href="#" aria-disabled="true">Baixar instalador</a></p>
     <p id="notes"></p>
   </div>
 
   <h2>Como instalar</h2>
   <ol>
-    <li>Baixe o <code>.zip</code> e extraia a pasta inteira em um lugar facil.</li>
-    <li>Abra <code>Abrir_Trecho.bat</code>.</li>
-    <li>O Trecho prepara, atualiza e baixa o que precisar automaticamente.</li>
+    <li>Baixe e extraia o arquivo do instalador.</li>
+    <li>Abra <code>Instalar_Trecho.bat</code>.</li>
+    <li>Quando terminar, use o icone <code>Trecho</code> na Area de Trabalho.</li>
   </ol>
 
   <h2>Atualizacoes</h2>
-  <p>Quando sair versao nova, abra o mesmo <code>Abrir_Trecho.bat</code>. Ele atualiza e continua sozinho.</p>
+  <p>O Trecho instalado verifica atualizacoes sozinho quando abre.</p>
 
   <footer>
     <p>O acesso ao beta e por convite. Se o login recusar, fale com o Andre.</p>
@@ -57,21 +48,13 @@
 fetch("manifest.json?t=" + Date.now())
   .then(function (r) { return r.json(); })
   .then(function (m) {
-    document.getElementById("v").innerHTML =
-      'Versao disponivel: <span class="ver">' + m.version + "</span>";
+    document.getElementById("v").innerHTML = 'Versao disponivel: <span class="ver">' + m.version + "</span>";
     if (m.notes) { document.getElementById("notes").textContent = m.notes; }
     var a = document.getElementById("dl");
-    if (m.url) {
-      a.href = m.url;
-      a.removeAttribute("aria-disabled");
-    } else {
-      a.textContent = "Ainda nao publicado";
-    }
+    var url = m.installer_url || m.url;
+    if (url) { a.href = url; a.removeAttribute("aria-disabled"); } else { a.textContent = "Ainda nao publicado"; }
   })
-  .catch(function () {
-    document.getElementById("v").textContent =
-      "Nao foi possivel ler a versao. Tente recarregar a pagina.";
-  });
+  .catch(function () { document.getElementById("v").textContent = "Nao foi possivel ler a versao. Tente recarregar a pagina."; });
 </script>
 </body>
 </html>
