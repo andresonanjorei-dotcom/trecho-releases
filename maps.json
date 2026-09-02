@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-09-02T22:29:32.3610028Z",
+  "generated_at": "2026-09-02T22:47:02.5885368Z",
   "packs": [
     {
       "key": "ats",
@@ -8,7 +8,7 @@
       "game": "ats",
       "version": "aa2628c8bf20",
       "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/maps/Trecho-Mapas-ats-aa2628c8bf20.zip",
-      "sha256": "38e0852c947de5b7bc1ee43ebb6914f96d92b1aa35c84962b5580d8d735e5aa9",
+      "sha256": "56cf4efe5a460b8a786eca6b75275df7144d358ac079f494a04e3c861e12c137",
       "size_bytes": 76405868,
       "file_count": 15
     },
@@ -18,7 +18,7 @@
       "game": "ets2",
       "version": "4bf5859bcdd4",
       "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/maps/Trecho-Mapas-ets2-4bf5859bcdd4.zip",
-      "sha256": "993e7925caaf25aa29ca35d5ca49d884ac0121ac1f68d2d39fb18489ac61b8e1",
+      "sha256": "0352db3e0e17124b8e02c1bc4a54bb86f3bd2dc8219e273c04a72a6503e89270",
       "size_bytes": 78649030,
       "file_count": 15
     },
@@ -28,7 +28,7 @@
       "game": "ets2",
       "version": "6130af4f07cd",
       "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/maps/Trecho-Mapas-ets2_rotasbrasil-6130af4f07cd.zip",
-      "sha256": "03825866c9d38373bc37e189ddf27286220d46dffe1dd77c26decb5a21ba84c0",
+      "sha256": "2a440d15a44b921616739eed5053c80ef65230611c0e3d5a753d1d9c48de7007",
       "size_bytes": 7353781,
       "file_count": 13
     },
@@ -38,7 +38,7 @@
       "game": "ets2",
       "version": "d80678f45add",
       "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/maps/Trecho-Mapas-ets2_rbr-d80678f45add.zip",
-      "sha256": "b27615fb95baa8293492691c22f7f326828b1005053e87547e2f76d4884cd400",
+      "sha256": "11e6ed312714b487652c06854041e57b423ba81f4d9aea4b53b5f025c293cf36",
       "size_bytes": 1703010,
       "file_count": 13
     }
