@@ -1,9 +1,9 @@
 {
-  "version": "0.9.11-beta",
+  "version": "0.9.12-beta",
   "minimum_supported_version": "0.9.5-beta",
   "channel": "beta",
-  "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.11-beta/Trecho-Beta-0.9.11-beta.zip",
-  "sha256": "8e2a3bafc2c4bca9835d361a7ee74080c0d25e661d776c7e7eab600a76170144",
-  "notes": "Trecho Beta 0.9.11-beta",
+  "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.12-beta/Trecho-Beta-0.9.12-beta.zip",
+  "sha256": "a5cf1e76f5c9f31d3faf7209d857e5e42e453873dd75fe12734453a6e6f1ece1",
+  "notes": "Trecho Beta 0.9.12-beta",
   "message": ""
 }
