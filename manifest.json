@@ -1,11 +1,11 @@
 {
-  "version": "0.9.55-beta",
+  "version": "0.9.56-beta",
   "minimum_supported_version": "0.9.5-beta",
   "channel": "beta",
-  "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.55-beta/Trecho-Beta-0.9.55-beta.zip",
-  "sha256": "f2cc66da8f4df7c638272d872dc6689486e016cb5a22488db75eef8aa20b7af9",
-  "installer_url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.55-beta/Trecho-0.9.55-beta.zip",
-  "installer_sha256": "e1dbc9e3c1eac931fc0d8a0159277439fbca84a7104d50b51a90be63acc2bd3c",
-  "notes": "Trecho 0.9.55-beta - coleta atendida, celular e tablet sem fundo escuro",
+  "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.56-beta/Trecho-Beta-0.9.56-beta.zip",
+  "sha256": "ecb86b61802fe2cdf4ab33c618f9ccfa13bc85bc67dbcae96117a354f05b9961",
+  "installer_url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.56-beta/Trecho-0.9.56-beta.zip",
+  "installer_sha256": "ca957de38ce57b24c151eb4ea803def4e7ed1e64265901d5f0b3d0bc94c5d797",
+  "notes": "ATS: atendimento operacional, migração do NPC Alive, Portarias/Alive automáticos e telemetria.",
   "message": ""
 }
