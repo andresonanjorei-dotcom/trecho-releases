@@ -1,11 +1,11 @@
 {
-  "version": "0.9.54-beta",
+  "version": "0.9.55-beta",
   "minimum_supported_version": "0.9.5-beta",
   "channel": "beta",
-  "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.54-beta/Trecho-Beta-0.9.54-beta.zip",
-  "sha256": "c7a01ea3aa3e66b6709f4bb2c4644d56b59e3d8488391447e356632b4bd77c24",
-  "installer_url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.54-beta/Trecho-0.9.54-beta.zip",
-  "installer_sha256": "073899ae6c25164c649e7b6a1b32dbc4bbf25124138b6adf5056f1b3a7929fc4",
-  "notes": "Trecho 0.9.54-beta - atualizacao resiste ao Fotos prendendo a pasta",
+  "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.55-beta/Trecho-Beta-0.9.55-beta.zip",
+  "sha256": "f2cc66da8f4df7c638272d872dc6689486e016cb5a22488db75eef8aa20b7af9",
+  "installer_url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.55-beta/Trecho-0.9.55-beta.zip",
+  "installer_sha256": "e1dbc9e3c1eac931fc0d8a0159277439fbca84a7104d50b51a90be63acc2bd3c",
+  "notes": "Trecho 0.9.55-beta - coleta atendida, celular e tablet sem fundo escuro",
   "message": ""
 }
