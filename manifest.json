@@ -1,11 +1,11 @@
 {
-  "version": "0.9.52-beta",
+  "version": "0.9.53-beta",
   "minimum_supported_version": "0.9.5-beta",
   "channel": "beta",
-  "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.52-beta/Trecho-Beta-0.9.52-beta.zip",
-  "sha256": "9e202a428851fdea1e850cce458df3c3bd91ae5ab2bc895136cff9cd39ecb3cd",
-  "installer_url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.52-beta/Trecho-0.9.52-beta.zip",
-  "installer_sha256": "8208314e40cd1429e2bcefacb5fa85d85eacdc661055038ac7fe5ef37eeb1aa8",
-  "notes": "Trecho Beta 0.9.52-beta",
+  "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.53-beta/Trecho-Beta-0.9.53-beta.zip",
+  "sha256": "61b9e2a66a3fd06d30adff9a4e6416ce19745fa50b814e8f8fc19db725863a4b",
+  "installer_url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.53-beta/Trecho-0.9.53-beta.zip",
+  "installer_sha256": "66fde2daedde0310d11a89f3850b2d56c1dfd4ed745e749079ff6dd57c2a5c86",
+  "notes": "Trecho 0.9.53-beta - correcao da atualizacao no Windows",
   "message": ""
 }
