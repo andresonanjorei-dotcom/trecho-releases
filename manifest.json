@@ -1,11 +1,11 @@
 {
-  "version": "0.9.58-beta",
+  "version": "0.9.59-beta",
   "minimum_supported_version": "0.9.5-beta",
   "channel": "beta",
-  "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.58-beta/Trecho-Beta-0.9.58-beta.zip",
-  "sha256": "18bdd0476b337ed1f81ac27ba8dfb4bb7687b5c74f2b238214ed35c599783c00",
-  "installer_url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.58-beta/Trecho-0.9.58-beta.zip",
-  "installer_sha256": "981c51768d153f8f685ce0dcdbf49c17db1bc2f92942992a9bd18b4c47f795c7",
-  "notes": "ATS: identificação do pátio de Princeton e sincronização do indicador de silêncio com a preferência real.",
+  "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.59-beta/Trecho-Beta-0.9.59-beta.zip",
+  "sha256": "84762289646ae1b20f78e695465ccfd438496b29319ca066a063708e3bbaf31b",
+  "installer_url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.59-beta/Trecho-0.9.59-beta.zip",
+  "installer_sha256": "eee876478d7214c59d6b717cf9a22ab427d97d82d478fa555d628505e056b9d5",
+  "notes": "Corrige a abertura do tablet por F5 com o zoom padrão do mapa. Carga, telefone e voz preservados.",
   "message": ""
 }
