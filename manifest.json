@@ -1,11 +1,11 @@
 {
-  "version": "0.9.57-beta",
+  "version": "0.9.58-beta",
   "minimum_supported_version": "0.9.5-beta",
   "channel": "beta",
-  "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.57-beta/Trecho-Beta-0.9.57-beta.zip",
-  "sha256": "64daa384969611a8f8b2e3c69f3eb19749b082e4fa9adfb48a2359d175b7ae1c",
-  "installer_url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.57-beta/Trecho-0.9.57-beta.zip",
-  "installer_sha256": "7f7afedd378d27d7437d8c728f64da68d646637e9e4791b7875b5331913dd4e9",
-  "notes": "ATS: registro da coleta no despachante, retomada dos documentos e retenção de um backup.",
+  "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.58-beta/Trecho-Beta-0.9.58-beta.zip",
+  "sha256": "18bdd0476b337ed1f81ac27ba8dfb4bb7687b5c74f2b238214ed35c599783c00",
+  "installer_url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.58-beta/Trecho-0.9.58-beta.zip",
+  "installer_sha256": "981c51768d153f8f685ce0dcdbf49c17db1bc2f92942992a9bd18b4c47f795c7",
+  "notes": "ATS: identificação do pátio de Princeton e sincronização do indicador de silêncio com a preferência real.",
   "message": ""
 }
