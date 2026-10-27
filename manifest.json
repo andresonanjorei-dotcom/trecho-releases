@@ -1,11 +1,11 @@
 {
-  "version": "0.9.59-beta",
-  "minimum_supported_version": "0.9.5-beta",
-  "channel": "beta",
-  "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.59-beta/Trecho-Beta-0.9.59-beta.zip",
-  "sha256": "84762289646ae1b20f78e695465ccfd438496b29319ca066a063708e3bbaf31b",
-  "installer_url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.59-beta/Trecho-0.9.59-beta.zip",
-  "installer_sha256": "eee876478d7214c59d6b717cf9a22ab427d97d82d478fa555d628505e056b9d5",
-  "notes": "Corrige a abertura do tablet por F5 com o zoom padrão do mapa. Carga, telefone e voz preservados.",
-  "message": ""
+ "version": "0.9.60-beta",
+ "minimum_supported_version": "0.9.5-beta",
+ "channel": "beta",
+ "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.60-beta/Trecho-Beta-0.9.60-beta.zip",
+ "sha256": "2583afafb53e07bab32cbd88eb8ae8e053688c5be83af8041c46225c9b89623e",
+ "installer_url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.60-beta/Trecho-0.9.60-beta.zip",
+ "installer_sha256": "92e35f3b33412b3a896237702334a88ff956121240c056da9f6219c64e172d10",
+ "notes": "NPCs e despachante validados no ATS (Winner e Sioux Falls), correção das janelas de console. GPS, Tablet, telefone e voz preservados.",
+ "message": ""
 }
