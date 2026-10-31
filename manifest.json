@@ -1,11 +1,11 @@
 {
- "version": "0.9.60-beta",
- "minimum_supported_version": "0.9.5-beta",
- "channel": "beta",
- "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.60-beta/Trecho-Beta-0.9.60-beta.zip",
- "sha256": "2583afafb53e07bab32cbd88eb8ae8e053688c5be83af8041c46225c9b89623e",
- "installer_url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.60-beta/Trecho-0.9.60-beta.zip",
- "installer_sha256": "92e35f3b33412b3a896237702334a88ff956121240c056da9f6219c64e172d10",
- "notes": "NPCs e despachante validados no ATS (Winner e Sioux Falls), correção das janelas de console. GPS, Tablet, telefone e voz preservados.",
- "message": ""
+    "version":  "0.9.62-beta",
+    "minimum_supported_version":  "0.9.5-beta",
+    "channel":  "beta",
+    "url":  "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.62-beta/Trecho-Beta-0.9.62-beta.zip",
+    "sha256":  "bca68487e433074d02cfc0948389a3e89647986f84905eefc3ba1a50ad81cf8b",
+    "installer_url":  "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.62-beta/Trecho-0.9.62-beta.zip",
+    "installer_sha256":  "cd0da3be72a7b75b9db8779ba929766622b4c5a7a3c56e5bd9aa288024f6a018",
+    "notes":  "Mapas gerados no seu PC (Atualizar Mapas), eventos do ATS (Halloween), acidentes com consequencias reais, Trecho Bank (primeira etapa) e segunda tentativa nos avisos da carga.",
+    "message":  ""
 }
