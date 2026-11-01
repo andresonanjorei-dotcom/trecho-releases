@@ -1,11 +1,11 @@
 {
-  "version": "0.9.66-beta",
+  "version": "0.9.67-beta",
   "minimum_supported_version": "0.9.5-beta",
   "channel": "beta",
-  "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.66-beta/Trecho-Beta-0.9.66-beta.zip",
-  "sha256": "d41673c63a01bc570f151c5d6c6462eadd9319805d3dc60a08b3fb9e96a00442",
-  "installer_url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.66-beta/Trecho-0.9.66-beta.zip",
-  "installer_sha256": "f88f89f805cd9ef968448b9fd9a84cc7a231c6801df799ad1b526cab45604255",
-  "notes": "Corrige o filtro da cidade do patio usando o codigo interno do jogo e inclui diagnostico na pasta principal.",
+  "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.67-beta/Trecho-Beta-0.9.67-beta.zip",
+  "sha256": "a7b984eff9b8a653d5ce9b74407fd51b89b66d80d143555e2ac1196982ad1131",
+  "installer_url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.67-beta/Trecho-0.9.67-beta.zip",
+  "installer_sha256": "96639b757245a21b47df81fb682878437dc7575d40cf106f6495ebae0a21fb3b",
+  "notes": "Corrige o descarte de ofertas Freight pelo indicador de ativacao Cargo e o zero indevido no painel.",
   "message": ""
 }
