@@ -1,11 +1,11 @@
 {
-  "version": "0.9.65-beta",
+  "version": "0.9.66-beta",
   "minimum_supported_version": "0.9.5-beta",
   "channel": "beta",
-  "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.65-beta/Trecho-Beta-0.9.65-beta.zip",
-  "sha256": "a5f93c85bd2c78c50ea30aaf631d2afbf747b6ce85351941b5027593accb3f7e",
-  "installer_url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.65-beta/Trecho-0.9.65-beta.zip",
-  "installer_sha256": "2904ddfb2e18d43ae8296c878106b7f67b74b51a1e214e369eb4fe9025e18271",
-  "notes": "Corrige ofertas descartadas por diferenca no nome da empresa e evita informar patio sem cargas quando a leitura nao foi confirmada.",
+  "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.66-beta/Trecho-Beta-0.9.66-beta.zip",
+  "sha256": "d41673c63a01bc570f151c5d6c6462eadd9319805d3dc60a08b3fb9e96a00442",
+  "installer_url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.66-beta/Trecho-0.9.66-beta.zip",
+  "installer_sha256": "f88f89f805cd9ef968448b9fd9a84cc7a231c6801df799ad1b526cab45604255",
+  "notes": "Corrige o filtro da cidade do patio usando o codigo interno do jogo e inclui diagnostico na pasta principal.",
   "message": ""
 }
