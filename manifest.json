@@ -1,11 +1,11 @@
 {
-  "version": "0.9.64-beta",
+  "version": "0.9.65-beta",
   "minimum_supported_version": "0.9.5-beta",
   "channel": "beta",
-  "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.64-beta/Trecho-Beta-0.9.64-beta.zip",
-  "sha256": "a6d4f724ece6c8a46543c2ee6f5b5526837a105044751709910c18a99e1008a0",
-  "installer_url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.64-beta/Trecho-0.9.64-beta.zip",
-  "installer_sha256": "3192c62b46b3dbca672b5e152be5e1d50f7ca30a1914efd9df972e63ce00cb36",
-  "notes": "Correcoes nas ligacoes da expedicao, sincronizacao da liberacao com a Central e anuncios da empresa de destino. Atualizacao completa com os dados pessoais preservados.",
+  "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.65-beta/Trecho-Beta-0.9.65-beta.zip",
+  "sha256": "a5f93c85bd2c78c50ea30aaf631d2afbf747b6ce85351941b5027593accb3f7e",
+  "installer_url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.65-beta/Trecho-0.9.65-beta.zip",
+  "installer_sha256": "2904ddfb2e18d43ae8296c878106b7f67b74b51a1e214e369eb4fe9025e18271",
+  "notes": "Corrige ofertas descartadas por diferenca no nome da empresa e evita informar patio sem cargas quando a leitura nao foi confirmada.",
   "message": ""
 }
