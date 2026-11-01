@@ -1,11 +1,11 @@
 {
-    "version":  "0.9.63-beta",
-    "minimum_supported_version":  "0.9.5-beta",
-    "channel":  "beta",
-    "url":  "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.63-beta/Trecho-Beta-0.9.63-beta.zip",
-    "sha256":  "35a4e423d688279fab3a38fb150e9a15a2dcf7dbf3e5aad5ab0286d150b7904c",
-    "installer_url":  "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.63-beta/Trecho-0.9.63-beta.zip",
-    "installer_sha256":  "f22aa6ba9cf69a2120ec4802c8e0f12c141b6b7659de7cc9f18b1e3950e46010",
-    "notes":  "Trecho Bank completo, Portarias montadas no seu PC (pacote de 27 MB), nome e idioma do motorista, patios grandes reconhecidos, liberacao falada da expedicao e diario de bordo so com a conversa.",
-    "message":  ""
+  "version": "0.9.64-beta",
+  "minimum_supported_version": "0.9.5-beta",
+  "channel": "beta",
+  "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.64-beta/Trecho-Beta-0.9.64-beta.zip",
+  "sha256": "a6d4f724ece6c8a46543c2ee6f5b5526837a105044751709910c18a99e1008a0",
+  "installer_url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.64-beta/Trecho-0.9.64-beta.zip",
+  "installer_sha256": "3192c62b46b3dbca672b5e152be5e1d50f7ca30a1914efd9df972e63ce00cb36",
+  "notes": "Correcoes nas ligacoes da expedicao, sincronizacao da liberacao com a Central e anuncios da empresa de destino. Atualizacao completa com os dados pessoais preservados.",
+  "message": ""
 }
