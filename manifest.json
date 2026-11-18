@@ -1,11 +1,11 @@
 {
-  "version": "0.9.67-beta",
-  "minimum_supported_version": "0.9.5-beta",
-  "channel": "beta",
-  "url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.67-beta/Trecho-Beta-0.9.67-beta.zip",
-  "sha256": "a7b984eff9b8a653d5ce9b74407fd51b89b66d80d143555e2ac1196982ad1131",
-  "installer_url": "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.67-beta/Trecho-0.9.67-beta.zip",
-  "installer_sha256": "96639b757245a21b47df81fb682878437dc7575d40cf106f6495ebae0a21fb3b",
-  "notes": "Corrige o descarte de ofertas Freight pelo indicador de ativacao Cargo e o zero indevido no painel.",
-  "message": ""
+    "version":  "0.9.68-beta",
+    "minimum_supported_version":  "0.9.5-beta",
+    "channel":  "beta",
+    "url":  "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.68-beta/Trecho-Beta-0.9.68-beta.zip",
+    "sha256":  "61cdd1b36355ebf8c4fd45700b14a3714d76e4f9d0b00cd3886e8561ab766cc1",
+    "installer_url":  "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.68-beta/Trecho-0.9.68-beta.zip",
+    "installer_sha256":  "9ceb02bc78081e3bc35fe89a595b57faae98a5d446d0d652a4751f775a6daff7",
+    "notes":  "ETS2: mercados de fretes e cargas ao vivo, placa no painel, fator de economia editavel, limpador por velocidade e Enter livre fora do portao.",
+    "message":  ""
 }
