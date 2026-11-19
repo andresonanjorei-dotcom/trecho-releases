@@ -1,11 +1,11 @@
 {
-    "version":  "0.9.68-beta",
+    "version":  "0.9.69-beta",
     "minimum_supported_version":  "0.9.5-beta",
     "channel":  "beta",
-    "url":  "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.68-beta/Trecho-Beta-0.9.68-beta.zip",
-    "sha256":  "61cdd1b36355ebf8c4fd45700b14a3714d76e4f9d0b00cd3886e8561ab766cc1",
-    "installer_url":  "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.68-beta/Trecho-0.9.68-beta.zip",
-    "installer_sha256":  "9ceb02bc78081e3bc35fe89a595b57faae98a5d446d0d652a4751f775a6daff7",
-    "notes":  "ETS2: mercados de fretes e cargas ao vivo, placa no painel, fator de economia editavel, limpador por velocidade e Enter livre fora do portao.",
+    "url":  "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.69-beta/Trecho-Beta-0.9.69-beta.zip",
+    "sha256":  "7f1403f8d02b22311a779185cf9a477fd0416e5667e2e5dbbc48bb08f60eb10c",
+    "installer_url":  "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.69-beta/Trecho-0.9.69-beta.zip",
+    "installer_sha256":  "e4ad6200384d2d733d25a10097efee73a6a3274aff202dfe2f14859e60313150",
+    "notes":  "ETS2: Portarias Europa (413 empresas com portao, mapa original e DLCs oficiais), instaladas sozinhas pelo Trecho.",
     "message":  ""
 }
