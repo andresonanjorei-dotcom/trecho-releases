@@ -1,11 +1,11 @@
 {
-    "version":  "0.9.69-beta",
+    "version":  "0.9.70-beta",
     "minimum_supported_version":  "0.9.5-beta",
     "channel":  "beta",
-    "url":  "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.69-beta/Trecho-Beta-0.9.69-beta.zip",
-    "sha256":  "7f1403f8d02b22311a779185cf9a477fd0416e5667e2e5dbbc48bb08f60eb10c",
-    "installer_url":  "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.69-beta/Trecho-0.9.69-beta.zip",
-    "installer_sha256":  "e4ad6200384d2d733d25a10097efee73a6a3274aff202dfe2f14859e60313150",
-    "notes":  "ETS2: Portarias Europa (413 empresas com portao, mapa original e DLCs oficiais), instaladas sozinhas pelo Trecho.",
+    "url":  "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.70-beta/Trecho-Beta-0.9.70-beta.zip",
+    "sha256":  "3b6b786540ffb4100849354a0282e8a5e7128f504fd00cc6c0850d56ad70ee4f",
+    "installer_url":  "https://github.com/andresonanjorei-dotcom/trecho-releases/releases/download/v0.9.70-beta/Trecho-0.9.70-beta.zip",
+    "installer_sha256":  "b12ed8528583f3a416ece131d9334229f749469c5907f1d4fd9cbdbfbe7ba4c2",
+    "notes":  "Contatos do celular separados por jogo (despachante do ETS2) e teclas escolhidas pelo motorista.",
     "message":  ""
 }
